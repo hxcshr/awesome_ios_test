@@ -1,0 +1,19 @@
+platform :ios, '9.0'
+
+target 'GitHub_Pod_Test' do
+    
+  
+  pod 'Cartography'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'lottie-ios', "~> 3.0"
+  pod 'pop'
+  pod 'WCDB'
+  pod 'Masonry'
+  
+  use_frameworks!
+  
+  pod "PromiseKit", "~> 6.8"
+  pod "RTRootNavigationController"
+
+end

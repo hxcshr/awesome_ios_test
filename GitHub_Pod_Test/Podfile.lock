@@ -1,0 +1,72 @@
+PODS:
+  - Cartography (3.1.0)
+  - lottie-ios (3.0.3)
+  - Masonry (1.1.0)
+  - pop (1.0.12)
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - RTRootNavigationController (0.7.1):
+    - RTRootNavigationController/Core (= 0.7.1)
+  - RTRootNavigationController/Core (0.7.1)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - Cartography
+  - lottie-ios (~> 3.0)
+  - Masonry
+  - pop
+  - PromiseKit (~> 6.8)
+  - RTRootNavigationController
+  - RxCocoa
+  - RxSwift
+  - WCDB
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cartography
+    - lottie-ios
+    - Masonry
+    - pop
+    - PromiseKit
+    - RTRootNavigationController
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SQLiteRepairKit
+    - WCDB
+    - WCDBOptimizedSQLCipher
+
+SPEC CHECKSUMS:
+  Cartography: 1988b7578871a56c036e7af17195cb2190edf18c
+  lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: 0cf4bba19cb0744128a51020cc47aab6b346532d
+
+COCOAPODS: 1.6.1
