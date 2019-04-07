@@ -27,7 +27,8 @@
     OOModel *m4 = [OOModel T:@"lottie-ios" C:[Lottie_iosViewController class]];
     OOModel *m5 = [OOModel T:@"pop" C:[POPViewController class]];
     OOModel *m6 = [OOModel T:@"WCDB" C:[WCDBViewController class]];
-    _dataArray = @[m1,m2,m3,m4,m5,m6];
+    OOModel *m7 = [OOModel T:@"MVVM" C:[MVVMViewController class]];
+    _dataArray = @[m1,m2,m3,m4,m5,m6,m7];
 }
 
 #pragma mark - Table view data source

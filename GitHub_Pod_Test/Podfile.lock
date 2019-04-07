@@ -1,5 +1,6 @@
 PODS:
   - Cartography (3.1.0)
+  - HandyJSON (5.0.0-beta)
   - lottie-ios (3.0.3)
   - Masonry (1.1.0)
   - pop (1.0.12)
@@ -26,9 +27,13 @@ PODS:
     - SQLiteRepairKit (~> 1.2.0)
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - WCDBOptimizedSQLCipher (1.2.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - Cartography
+  - HandyJSON (= 5.0.0-beta)
   - lottie-ios (~> 3.0)
   - Masonry
   - pop
@@ -37,10 +42,12 @@ DEPENDENCIES:
   - RxCocoa
   - RxSwift
   - WCDB
+  - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Cartography
+    - HandyJSON
     - lottie-ios
     - Masonry
     - pop
@@ -52,9 +59,11 @@ SPEC REPOS:
     - SQLiteRepairKit
     - WCDB
     - WCDBOptimizedSQLCipher
+    - YYKit
 
 SPEC CHECKSUMS:
   Cartography: 1988b7578871a56c036e7af17195cb2190edf18c
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
   lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
@@ -66,7 +75,8 @@ SPEC CHECKSUMS:
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 0cf4bba19cb0744128a51020cc47aab6b346532d
+PODFILE CHECKSUM: 32f835a4b09a0098b19b932c06d2d68e3ed936a7
 
 COCOAPODS: 1.6.1

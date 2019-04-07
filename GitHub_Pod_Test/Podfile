@@ -10,7 +10,9 @@ target 'GitHub_Pod_Test' do
   pod 'pop'
   pod 'WCDB'
   pod 'Masonry'
-  
+  pod 'YYKit'
+  pod 'HandyJSON', '5.0.0-beta'
+
   use_frameworks!
   
   pod "PromiseKit", "~> 6.8"

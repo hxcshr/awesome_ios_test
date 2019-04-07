@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B9820ECB22570ACD0084C699 /* DBModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9820ECA22570ACD0084C699 /* DBModel.mm */; };
 		B9820ED222570C190084C699 /* WCDBViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9820ED122570C190084C699 /* WCDBViewController.mm */; };
+		B9820ED422586F5F0084C699 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9820ED322586F5F0084C699 /* MVVMViewController.swift */; };
+		B9820ED722586F8A0084C699 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9820ED622586F8A0084C699 /* MVVMViewModel.swift */; };
+		B9820ED922586F9B0084C699 /* MVVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9820ED822586F9B0084C699 /* MVVMModel.swift */; };
+		B9820EDB2259A8330084C699 /* MVVMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9820EDA2259A8330084C699 /* MVVMTableViewCell.swift */; };
 		D0C6E09F224DC5D500BBF136 /* Lottie_iosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C6E09E224DC5D500BBF136 /* Lottie_iosViewController.swift */; };
 		D0C6E0A1224DCA1100BBF136 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = D0C6E0A0224DCA1100BBF136 /* LottieLogo1.json */; };
 		D0C6E0A3224DCDBB00BBF136 /* POPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C6E0A2224DCDBB00BBF136 /* POPViewController.swift */; };
@@ -33,6 +37,10 @@
 		B9820ECA22570ACD0084C699 /* DBModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DBModel.mm; sourceTree = "<group>"; };
 		B9820ED022570C190084C699 /* WCDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCDBViewController.h; sourceTree = "<group>"; };
 		B9820ED122570C190084C699 /* WCDBViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WCDBViewController.mm; sourceTree = "<group>"; };
+		B9820ED322586F5F0084C699 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		B9820ED622586F8A0084C699 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
+		B9820ED822586F9B0084C699 /* MVVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModel.swift; sourceTree = "<group>"; };
+		B9820EDA2259A8330084C699 /* MVVMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTableViewCell.swift; sourceTree = "<group>"; };
 		D0C6E09E224DC5D500BBF136 /* Lottie_iosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie_iosViewController.swift; sourceTree = "<group>"; };
 		D0C6E0A0224DCA1100BBF136 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
 		D0C6E0A2224DCDBB00BBF136 /* POPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +136,17 @@
 			path = wcdb;
 			sourceTree = "<group>";
 		};
+		B9820ED522586F650084C699 /* mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				B9820ED322586F5F0084C699 /* MVVMViewController.swift */,
+				B9820EDA2259A8330084C699 /* MVVMTableViewCell.swift */,
+				B9820ED622586F8A0084C699 /* MVVMViewModel.swift */,
+				B9820ED822586F9B0084C699 /* MVVMModel.swift */,
+			);
+			path = mvvm;
+			sourceTree = "<group>";
+		};
 		C1AD37BEF97F3D6FEB5C48AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +178,7 @@
 			children = (
 				D0F418342248B49E00F96D72 /* AppDelegate.h */,
 				D0F418352248B49E00F96D72 /* AppDelegate.m */,
+				B9820ED522586F650084C699 /* mvvm */,
 				B9820EC822570A7A0084C699 /* wcdb */,
 				B9820EC1225709750084C699 /* rootVC */,
 				B9820EC2225709C30084C699 /* Promise */,
@@ -266,6 +286,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GitHub_Pod_Test/Pods-GitHub_Pod_Test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
@@ -275,6 +296,7 @@
 				"${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework",
 				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
 				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
@@ -283,6 +305,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
@@ -292,6 +315,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqliterk.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
@@ -330,15 +354,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F418442248B4A400F96D72 /* main.m in Sources */,
+				B9820ED722586F8A0084C699 /* MVVMViewModel.swift in Sources */,
 				B9820ECB22570ACD0084C699 /* DBModel.mm in Sources */,
+				B9820ED922586F9B0084C699 /* MVVMModel.swift in Sources */,
 				D0F418362248B49E00F96D72 /* AppDelegate.m in Sources */,
 				D0F4184C2248B54300F96D72 /* TableViewController.m in Sources */,
 				D0C6E0A3224DCDBB00BBF136 /* POPViewController.swift in Sources */,
 				D0C6E09F224DC5D500BBF136 /* Lottie_iosViewController.swift in Sources */,
 				D0F418572249F2F800F96D72 /* PromiseKitViewController.swift in Sources */,
 				D0F4184F2248B6F000F96D72 /* OOModel.m in Sources */,
+				B9820ED422586F5F0084C699 /* MVVMViewController.swift in Sources */,
 				D0F41859224A222C00F96D72 /* RxSwiftViewController.swift in Sources */,
 				B9820ED222570C190084C699 /* WCDBViewController.mm in Sources */,
+				B9820EDB2259A8330084C699 /* MVVMTableViewCell.swift in Sources */,
 				D0F418552249CEC400F96D72 /* CartographyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -108,7 +108,7 @@ class RxSwiftViewController: UIViewController {
 
 
                 let observable1 = Observable.of("A","B","C")
-        
+
 
         
                 let sub = observable1.subscribe {event in
